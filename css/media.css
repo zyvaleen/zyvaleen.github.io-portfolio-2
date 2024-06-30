@@ -1,0 +1,561 @@
+
+/* Extra small devices  */
+@media (max-width: 575.98px) { 
+
+    #benner {
+        padding: 160px 0 100px 0;
+    }
+
+    .benner_text h1 {
+        font-size: 35px;
+    }
+
+    .benner_text p {
+        font-size: 18px;
+        padding: 15px 95px 25px 0;
+    }
+
+    .benner_text a {
+        padding: 10px 25px;
+    }
+
+    .navbar-light .navbar-brand img {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: none;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    /* ===== menu ==== */
+
+    #menu {
+        padding: 30px 0 0 0;
+    }
+
+    .menu_text h1 {
+        font-size: 30px;
+        padding: 0 0 20px 0;
+    }
+
+    .menu_text p {
+        padding: 0 10px;
+    }
+
+    .menu_item {
+        padding: 20px 0px;
+    }
+
+    .menu_item p {
+        padding: 10px 70px;
+        font-size: 18px;
+    }
+
+    .menu_item h4 {
+        font-size: 22px;
+    }
+
+    /* ==== free ==== */
+
+    #free {
+        padding: 80px 0px 65px 0;
+    }
+
+    .free_text h1 {
+        font-size: 35px;
+    }
+
+    .free_text p {
+        font-size: 15px;
+        padding: 15px 0px 25px 0;
+    }
+
+    .free_text a {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+
+    /* ===== Statistics ===== */
+
+    #Statistics {
+        padding: 30px 0 57px 0;
+    }
+
+    .Statistics_text h1 {
+        font-size: 35px;
+    }
+
+    .Statistics_text p {
+        font-size: 15px;
+        padding: 15px 10px;
+    }
+
+    .Statistics_item {
+        width: 155px;
+        height: 155px;
+        margin-bottom: 20px;
+    }
+
+    .Statistics_item h1 {
+        font-size: 40px;
+    }
+
+    .Statistics_item h2 {
+        font-size: 25px;
+    }
+
+    /* ========= discount ========== */
+
+    #discount {
+        padding: 110px 0 100px 0;
+    }
+
+    .discount_text h1 {
+        font-size: 35px;
+    }
+
+    .discount_text p {
+        font-size: 18px;
+        padding: 15px 95px 25px 0;
+    }
+
+    .discount_text a {
+        padding: 10px 25px;
+    }
+
+    /* ========== addie ========= */
+
+    #addie {
+        padding: 180px 0 106px 0;
+    }
+
+    .addie_text p {
+        font-size: 22px;
+        padding: 0 0px;
+    }
+
+    .addie_text h6 {
+        font-size: 28px;
+    }
+
+    /* ===== subscribe ==== */
+
+    #subscribe {
+        padding: 55px 0 82px 0;
+    }
+
+    .subscribe_text h1 {
+        font-size: 35px;
+        padding: 0 0 10px 0;
+    }
+
+    .subscribe_text p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .form {
+        padding: 20px 70px;
+    }
+
+    .input input {
+        height: 30px;
+    }
+
+    .input input::placeholder{
+        font-size: 13px;
+    }
+
+    /* ========= footer ====== */
+
+    #footer {
+        padding: 115px 0 115px 0;
+    }
+    
+
+    .best_pizza p {
+        padding: 10px 100px 15px 0;
+    }
+
+    .best_pizza_icon a img {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about h1 {
+        margin-top: 20px;
+    }
+
+    .about p {
+        padding: 10px 0;
+    }
+
+ }
+
+
+
+
+ /* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+    #benner {
+        padding: 180px 0 120px 0;
+    }
+
+    .benner_text h1 {
+        font-size: 35px;
+    }
+
+    .benner_text p {
+        font-size: 18px;
+        padding: 15px 95px 25px 0;
+    }
+
+    .benner_text a {
+        padding: 10px 25px;
+    }
+
+    .navbar-light .navbar-brand img {
+        height: 70px;
+        width: 70px;
+        margin-top: 10px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: none;
+    }
+
+    .navbar-light .navbar-toggler i {
+        font-size: 27px;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    /* ===== menu ==== */
+
+    #menu {
+        padding: 55px 0 20px 0;
+    }
+
+    .menu_text h1 {
+        font-size: 30px;
+        padding: 0 0 20px 0;
+    }
+
+    .menu_text p {
+        font-size: 17px;
+        padding: 0 18px;
+    }
+
+    .menu_item {
+        padding: 20px 0px;
+    }
+
+    .menu_item p {
+        padding: 10px 90px;
+        font-size: 18px;
+    }
+
+    .menu_item h4 {
+        font-size: 22px;
+    }
+
+    /* ==== free ==== */
+
+    #free {
+        padding: 110px 0px 90px 0;
+    }
+
+    .free_text h1 {
+        font-size: 35px;
+    }
+
+    .free_text p {
+        font-size: 18px;
+        padding: 15px 0px 25px 0;
+    }
+
+    .free_text a {
+        padding: 8px 25px;
+        font-size: 15px;
+    }
+
+    /* ===== Statistics ===== */
+
+    #Statistics {
+        padding: 55px 0 57px 0;
+    }
+
+    .Statistics_text h1 {
+        font-size: 35px;
+    }
+
+    .Statistics_text p {
+        font-size: 17px;
+        padding: 15px 10px;
+    }
+
+    .Statistics_item {
+        width: 155px;
+        height: 155px;
+        margin-bottom: 20px;
+    }
+
+    .Statistics_item h1 {
+        font-size: 40px;
+    }
+
+    .Statistics_item h2 {
+        font-size: 25px;
+    }
+
+    /* ========= discount ========== */
+
+    #discount {
+        padding: 120px 0 102px 0;
+    }
+
+    .discount_text h1 {
+        font-size: 35px;
+    }
+
+    .discount_text p {
+        font-size: 18px;
+        padding: 15px 95px 25px 0;
+    }
+
+    .discount_text a {
+        padding: 10px 25px;
+    }
+
+    /* ========== addie ========= */
+
+    #addie {
+        padding: 180px 0 106px 0;
+    }
+
+    .addie_text p {
+        font-size: 22px;
+        padding: 0 0px;
+    }
+
+    .addie_text h6 {
+        font-size: 28px;
+    }
+
+    /* ===== subscribe ==== */
+
+    #subscribe {
+        padding: 55px 0 82px 0;
+    }
+
+    .subscribe_text h1 {
+        font-size: 35px;
+        padding: 0 0 10px 0;
+    }
+
+    .subscribe_text p {
+        font-size: 17px;
+        padding: 0 13px;
+    }
+
+    .form {
+        padding: 20px 70px;
+    }
+
+    .input input {
+        height: 40px;
+    }
+
+    .input input::placeholder{
+        font-size: 15px;
+    }
+
+    /* ========= footer ====== */
+
+    #footer {
+        padding: 115px 0 115px 0;
+    }
+
+    .best_pizza p {
+        font-size: 17px;
+        padding: 17px 182px 17px 0;
+    }
+
+    .best_pizza_icon a img {
+        height: 35px;
+        width: 35px;
+        margin-bottom: 20px;
+    }
+
+    .about h1 {
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    .about p {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+
+
+ }
+
+
+
+ /* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+
+    .navbar-light .navbar-brand img {
+        height: 80px;
+        width: 80px;
+        margin-top: 20px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: none;
+    }
+
+    .navbar-light .navbar-toggler i {
+        font-size: 30px;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    #benner {
+        padding: 210px 0 145px 0;
+    }
+
+    .benner_text h1 {
+        font-size: 60px;
+    }
+
+    .benner_text p {
+        padding: 25px 240px 34px 0;
+    }
+
+    .benner_text a {
+        padding: 12px 40px;
+    }
+
+    /* =========== menu ========== */
+
+    .menu_text p {
+        font-size: 17px;
+        padding: 0px 108px;
+    }
+
+    .menu_item p {
+        font-size: 17px;
+        padding: 10px 224px;
+    }
+
+    /* ======= free ======= */
+
+    #free {
+        padding: 130px 0 125px 0;
+    }
+
+    .free_text h1 {
+        font-size: 55px;
+    }
+
+    .free_text p {
+        padding: 25px 0px 34px 0;
+    }
+
+    .free_text a {
+        padding: 12px 40px;
+    }
+
+    /* ========== Statistics ========= */
+
+    .Statistics_text p {
+        font-size: 17px;
+        padding: 0 105px;
+        margin-bottom: 50px;
+    }
+
+    /* ====== discount ===== */
+
+    #discount {
+        padding: 130px 0 125px 0;
+    }
+
+    .discount_text h1 {
+        font-size: 60px;
+    }
+
+    .discount_text p {
+        padding: 25px 241px 34px 0;
+    }
+
+    /* ========= addie ======== */
+
+    #addie {
+        padding: 265px 0 170px 0;
+    }
+
+    .addie_text p {
+        padding: 0 12px;
+    }
+
+    /* ========== subscribe ======== */
+
+    #subscribe {
+        padding: 75px 0 100px 0;
+    }
+
+    .subscribe_text p {
+        font-size: 18px;
+        padding: 0px 94px;
+    }
+
+    .form {
+        padding: 45px 150px;
+    }
+
+    /* ========== footer ======== */
+
+    #footer {
+        padding: 115px 0 115px 0;
+    }
+
+    .best_pizza p {
+        font-size: 17px;
+        padding: 17px 182px 17px 0;
+    }
+
+    .best_pizza_icon a img {
+        height: 35px;
+        width: 35px;
+        margin-bottom: 20px;
+    }
+
+    .about h1 {
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    .about p {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+
+ }

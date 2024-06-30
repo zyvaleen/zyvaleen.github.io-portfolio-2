@@ -1,0 +1,372 @@
+/* ========== navber css ======= */
+
+.navbar{
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbar-light .navbar-nav .nav-item{
+    padding: 57px 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffff;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffff;
+}
+
+/* ========== benner css ======== */
+
+#benner{
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 277px 0 165px 0;
+    position: relative;
+}
+
+#benner::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,black,rgba(34,34,34,0));
+    top: 0;
+    left: 0;
+}
+
+.benner_text h1 {
+    color: #ffff;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.benner_text p {
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px 95px 34px 0;
+}
+
+.benner_text a {
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffff;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 150px;
+}
+
+/* ========= menu css ====== */
+
+#menu {
+    background-image: url('../images/menu\ bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 70px 0;
+}
+
+.menu_text h1 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffff;
+    padding: 0 0 25px 0;
+}
+
+.menu_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 313px;
+    color: #ffff;
+}
+
+.menu_item {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.menu_item h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.menu_item p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 49px;
+    color: #ffff;
+}
+
+/* ========== free css ======= */
+
+#free {
+    background-image: url('../images/freedelivary.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 205px 0 200px 0;
+    position: relative;
+}
+
+.free_text h1 {
+    color: #ffff;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.free_text p {
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px 95px 34px 0;
+}
+
+.free_text a {
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffff;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 150px;
+}
+
+/* ============ Statistics =========== */
+
+#Statistics {
+    background-image: url('../images/menu\ bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 115px 0;
+}
+
+.Statistics_text h1{
+    font-family: 'Abril Fatface', serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffff;
+    padding: 0 0 25px 0;
+}
+
+.Statistics_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 313px;
+    color: #ffff;
+}
+
+.Statistics_item {
+    text-align: center;
+    padding: 30px 0px;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    width: 180px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+}
+
+.Statistics_item h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.Statistics_item h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+/* ========= discount ======== */
+
+#discount {
+    background-image: url('../images/discount.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 225px 0 200px 0;
+    position: relative;
+}
+
+.discount_text h1 {
+    color: #ffff;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.discount_text p {
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px 95px 34px 0;
+}
+
+.discount_text a {
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffff;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 150px;
+}
+
+/* ========= addie ========= */
+
+#addie {
+    background-image: url('../images/addi.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 330px 0 212px 0;
+    position: relative;
+}
+
+#addie::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black,black);
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.addie_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    color: #ffff;
+    padding: 0 216px;
+}
+
+.addie_text h6{
+    font-family: 'Abril Fatface', serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffff;
+    padding: 10px 0 0 0;
+}
+
+/* ========= subscribe ======== */
+
+#subscribe {
+    background-image: url('../images/menu\ bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0 165px 0;
+}
+
+.subscribe_text h1 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffff;
+    text-transform: capitalize;
+    padding: 0 0 20px 0;
+}
+
+.subscribe_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 232px;
+    color: #ffff;
+}
+
+.form {
+    padding: 45px 330px;
+}
+
+.input input{
+    height: 40px;
+    border-radius: 30px;
+}
+
+.input input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #6e6d6d;
+    font-size: 15px;
+}
+
+/* ========= footer ======== */
+
+#footer {
+    background-image: url('../images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0 160px 0;
+}
+
+.best_pizza h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffff;
+}
+
+.best_pizza p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffff;
+    padding: 17px 235px 17px 0;
+}
+
+.best_pizza_icon{
+    word-spacing: 10px;
+}
+
+.about h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffff;
+}
+
+.about p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffff;
+    padding: 17px 0;
+    line-height: 2;
+}
+
+
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Abril Fatface', serif; */
